@@ -72,7 +72,7 @@ async function runMachine(){
     idleState();
     
     //Kuunnellaan porttia 3000.
-    app.listen(3000, () => {console.log('3000')});
+    app.listen(3000);
 
     module.exports.app = app;
     module.exports.funcs = {

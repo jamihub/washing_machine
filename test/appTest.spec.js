@@ -1,3 +1,9 @@
+/*
+13.12.2021
+Jami Seilonen 
+Description: Unit tests
+*/
+
 const assert = require ('assert');
 const funcs = require('../app.js').funcs; 
 const app = require('../app.js').app; 
