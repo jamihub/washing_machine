@@ -1,0 +1,19 @@
+{
+  "name": "washingmachine",
+  "version": "1.0.0",
+  "description": "Washingmachine application",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha || true",
+    "start": "node app.js"
+  },
+  "author": "Jami Seilonen",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "mocha": "^9.1.3",
+    "supertest": "^6.1.6"
+  }
+}
