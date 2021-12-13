@@ -59,7 +59,7 @@ async function runMachine(){
         }
     });
     
-    app.get('/api/status',(req,res) => {            //status komento palauttaa koneen pesuvaiheen nimen.
+    app.post('/api/status',(req,res) => {            //status komento palauttaa koneen pesuvaiheen nimen.
         res.status(200).json({message: curState});
     });
 

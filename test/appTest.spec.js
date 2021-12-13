@@ -20,17 +20,17 @@ describe('App', () => {
     });
 });
 
-describe('GET /api/status', function() {
-    it('Should has status code 200', function(done) {
+describe('POST /api/status', function done() {
+    it('Should has status code 200', async () => {
       supertest(app)
-        .get('/api/status')
-        .expect(200)
-        .end(function(err, res){
+       .post('/api/status')
+       .expect(200)
+       .end(function(err, res) {
           if (err) done(err);
-          done();
-        });
-    });
-});
+       });
+       done();
+     });
+  });
 
 describe('POST /api/start', function done() {
 it('Machine start successful', async () => {
